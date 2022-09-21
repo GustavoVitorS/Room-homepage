@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/style.css">
+  <title>Frontend Mentor | Página inicial da sala</title>
+</head>
+<body>
+  <main class="main">
+    <h1 class="v-hidden">Página de loja de quarto</h1>
+    <div class="container">   
+
+      <div class="hero">
+
+        <div class="nav">
+          <button class="menu hidden"><img src="./images/icon-hamburger.svg" alt="menu icon"></button>
+          <div class="logo"><img src="./images/logo.svg" alt="logo image"></div>          
+          <a class="link" href="#">home</a>
+          <a class="link" href="#">Fazer compras</a>
+          <a class="link" href="#">Sobre</a>
+          <a class="link" href="#">Contato</a>
+        </div>
+
+        <div class="slide">
+
+          <!-- slide images -->
+          <div class="slide__image">
+            <div class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
+          </div>
+
+          <!-- slide description -->
+          <div class="slide__desc">
+            <div class="description desc-1">
+              <h2>Descubra formas inovadoras de decorar</h2>
+              <p>
+                Oferecemos qualidade, conforto e estilo inigualáveis para proprietários em todo o país.
+                 Nossos especialistas combinam forma e função para dar vida à sua visão. Crie uma sala em seu
+                 estilo próprio com a nossa coleção e faça da sua propriedade um reflexo de você e do que você ama.
+              </p>
+              <a href="#" class="shop-now">
+                <p>COMPRE AGORA</p>
+                <img src="./images/icon-arrow.svg" alt="arrow image">
+              </a>
+            </div>
+
+            <div class="description desc-2">
+              <h2>Estamos disponíveis em todo o mundo</h2>
+              <p>
+                Com lojas em todo o mundo, é fácil encontrar móveis para sua casa ou local de trabalho.
+                 Localmente, estamos na maioria das grandes cidades do país. Encontre a filial mais próxima de você usando nosso
+                 localizador de loja. Alguma pergunta? Não hesite em contactar-nos hoje.
+              </p>
+              <a href="#" class="shop-now">
+                <p>COMPRE AGORA</p>
+                <img src="./images/icon-arrow.svg" alt="arrow image">
+              </a>
+            </div>
+
+            <div class="description desc-3">
+              <h2>Fabricado com os melhores materiais</h2>
+              <p>
+                Nossa moderna loja de móveis oferece um alto nível de qualidade. Nossa empresa investiu em tecnologia avançada
+                 para garantir que cada produto seja feito o mais perfeito e consistente possível. Com três décadas de
+                 experiência neste setor, entendemos o que os clientes desejam para sua casa e escritório.
+              </p>
+              <a href="#" class="shop-now">
+                <p>COMPRE AGORA</p>
+                <div class="arrow"><img src="./images/icon-arrow.svg" alt="arrow image"></div>
+              </a>
+            </div>           
+          </div>
+        </div>
+
+        <!-- slide buttons -->
+        <div class="slide-btns">
+          <button class="prev"><img src="./images/icon-angle-left.svg" alt="previous button icon"></button>
+          <button class="next"><img src="./images/icon-angle-right.svg" alt="next button icon"></button>
+        </div>
+
+      </div>
+
+      <!-- about section -->
+      <div class="about">
+        <div class="image-1"></div>
+        <div class="info">
+          <h3>SOBRE O NOSSO MOBILIÁRIO</h3>
+          <p>
+            Nossa coleção multifuncional combina design e função para se adequar ao seu gosto individual.
+             Torne cada quarto único ou escolha um tema coeso que melhor expresse seus interesses e o que
+             te inspira. Encontre as peças de mobiliário que você precisa, do estilo tradicional ao contemporâneo
+             ou qualquer coisa no meio. Especialistas em produtos estão disponíveis para ajudá-lo a criar o espaço dos seus sonhos.
+          </p>
+        </div>
+        <div class="image-2"></div>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="overlay"></div>
+      <div class="mobile-menu">
+        <button class="close"><img src="./images/icon-close.svg" alt="close button icon"></button>
+        <div class="links">
+          <a class="link" href="#">home</a>
+          <a class="link" href="#">Fazer compras</a>
+          <a class="link" href="#">Sobre</a>
+          <a class="link" href="#">Contato</a>
+        </div>
+      </div>
+
+    </div>
+    
+  </main>
+  <script src="./app/js/script.js" defer></script>
+</body>
+</html>
